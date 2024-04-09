@@ -22,8 +22,11 @@ public class AuthorsController {
     //POST
     @PostMapping
     public Author savingAuthor(@RequestBody Author body){
-        System.out.println(body);
         return this.authorsService.savingAuthor(body);
     }
+    //GET BY ID
+    @GetMapping(""id")
+            public
+
 
 }

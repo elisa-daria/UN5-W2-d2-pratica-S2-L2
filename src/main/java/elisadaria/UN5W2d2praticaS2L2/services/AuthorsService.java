@@ -22,4 +22,14 @@ public class AuthorsService {
         this.authors.add(author);
         return author;
     }
+    //finding AuthorById
+    public Author findingAuthorById(int id){
+        Author found=null;
+        for(Author author:authors){
+            if(author.getId()== id){
+               found=author;
+            }
+        }
+        return found;
+    }
 }
