@@ -6,11 +6,10 @@ import java.time.LocalDate;
 
 @Data
 public class BlogPost {
-
     private int id;
-    private String name;
-    private String surname;
-    private String email;
-    private LocalDate dateOfBirth;
-    private String avatar;
+    private String category;
+    private String title;
+    private String cover;
+    private String content;
+    private String readingTime;
 }

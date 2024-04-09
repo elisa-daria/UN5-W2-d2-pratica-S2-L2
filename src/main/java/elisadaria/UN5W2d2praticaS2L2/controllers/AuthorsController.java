@@ -22,7 +22,8 @@ public class AuthorsController {
     //POST
     @PostMapping
     public Author savingAuthor(@RequestBody Author body){
-        return authorsService.savingAuthor(body);
+        System.out.println(body);
+        return this.authorsService.savingAuthor(body);
     }
 
 }
