@@ -10,6 +10,6 @@ public class Author {
     private String title;
     private String cover;
     private String content;
-    private LocalTime readingTime;
+    private String readingTime;
 
 }
